@@ -848,14 +848,14 @@ small {
   color: #cacaca; }
 
 a {
-  color: #dad600;
+  color: #0fb600;
   text-decoration: none; }
   a:hover {
-    color: #a7a400; }
+    color: #0b8300; }
   a:active {
-    color: #a7a400; }
+    color: #0b8300; }
   a:visited {
-    color: #dad600; }
+    color: #0fb600; }
 
 h1 a,
 h1 a:visited,
@@ -869,7 +869,7 @@ h5 a,
 h5 a:visited,
 h6 a,
 h6 a:visited {
-  color: #dad600; }
+  color: #0fb600; }
 
 pre {
   background: #f3f3f3;
@@ -908,9 +908,9 @@ table.button {
   Margin: 0 0 16px 0; }
   table.button table td {
     text-align: left;
-    color: #dad600;
+    color: #0fb600;
     background: transparent;
-    border: 2px solid #dad600; }
+    border: 2px solid #0fb600; }
     table.button table td.radius {
       border-radius: 0; }
     table.button table td.rounded {
@@ -919,7 +919,7 @@ table.button {
       font-family: Arial, sans-serif;
       font-size: 16px;
       font-weight: normal;
-      color: #dad600;
+      color: #0fb600;
       text-decoration: none;
       display: inline-block;
       padding: 12px 35px 12px 35px;
@@ -939,7 +939,7 @@ table.button.small table tr td a:visited,
 table.button.large:hover table tr td a,
 table.button.large:active table tr td a,
 table.button.large table tr td a:visited {
-  color: #dad600; }
+  color: #0fb600; }
 
 table.button.tiny table td,
 table.button.tiny table a {
@@ -975,7 +975,7 @@ table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
   background: transparent;
-  color: #dad600; }
+  color: #0fb600; }
 
 table.button:hover table a,
 table.button:visited table a,
@@ -984,28 +984,28 @@ table.button:active table a {
 
 table.button.secondary table td {
   background: #777777;
-  color: #dad600;
+  color: #0fb600;
   border: 2px solid #777777; }
 
 table.button.secondary table a {
-  color: #dad600;
+  color: #0fb600;
   border: 0px solid #777777; }
 
 table.button.secondary:hover table td {
   background: #919191;
-  color: #dad600; }
+  color: #0fb600; }
 
 table.button.secondary:hover table a {
   border: 0px solid #919191; }
 
 table.button.secondary:hover table td a {
-  color: #dad600; }
+  color: #0fb600; }
 
 table.button.secondary:active table td a {
-  color: #dad600; }
+  color: #0fb600; }
 
 table.button.secondary table td a:visited {
-  color: #dad600; }
+  color: #0fb600; }
 
 table.button.success table td {
   background: #3adb76;
@@ -1043,7 +1043,7 @@ th.callout-inner {
   padding: 10px;
   background: #ffffff; }
   th.callout-inner.primary {
-    background: #fffed3;
+    background: #d2ffce;
     border: 1px solid #444444;
     color: #000000; }
   th.callout-inner.secondary {
@@ -1073,7 +1073,7 @@ th.callout-inner {
   border-radius: 3px;
   margin-bottom: 16px; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(218, 214, 0, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(15, 182, 0, 0.5); }
 
 table.menu {
   width: 580px; }
@@ -1083,7 +1083,7 @@ table.menu {
     padding-right: 10px; }
     table.menu td.menu-item a,
     table.menu th.menu-item a {
-      color: #dad600; }
+      color: #0fb600; }
 
 table.menu.vertical td.menu-item,
 table.menu.vertical th.menu-item {
@@ -1382,6 +1382,12 @@ body.outlook p {
   padding-top: 16px;
   padding-bottom: 16px; }
 
+td.columns,
+td.column,
+th.columns,
+th.column {
+  padding-bottom: 0px; }
+
 .no-bg {
   background: transparent !important; }
 
@@ -1394,6 +1400,12 @@ body.outlook p {
 
 .text-16px {
   font-size: 16px; }
+
+.text-h3 {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px; }
 
 .text-uppercase {
   text-transform: uppercase; }
@@ -1423,7 +1435,7 @@ body.outlook p {
 
 .main-body-p {
   color: #ECECEC;
-  line-height: 1.57143; }
+  font-size: 15px; }
 
 .decorative-line {
   background: #ECECEC;
@@ -1431,7 +1443,7 @@ body.outlook p {
 
 .item-name {
   text-transform: uppercase;
-  color: #dad600; }
+  color: #0fb600; }
 
 .item-price {
   color: #ECECEC; }
@@ -1450,12 +1462,13 @@ table.button {
   font-weight: bold; }
 
 .position-junior-text {
-  color: #dad600;
+  color: #0fb600;
   margin: 0;
   font-size: 30px; }
 
 .span-accent {
-  color: #dad600; }
+  color: #0fb600;
+  font-weight: bold; }
 
 .layer1 {
   height: 100px !important;
@@ -1472,15 +1485,69 @@ table.button {
   left: 40%; }
 
 .myPhoto {
-  background-color: #dad600; }
+  background-color: #0fb600; }
 
-.photo-languages, .photo-skills, .photo-hobbies, .icon-data {
-  background-color: #dad600; }
+.photo-languages, .photo-skills, .photo-hobbies, .icon-data, .icon-os {
+  background-color: #0fb600; }
 
 .icon-data {
   height: 27px; }
+
+.icon-skills {
+  background-color: #0fb600;
+  background-image: url("https://lh3.googleusercontent.com/w5EMtVGaHYE4IoEKeAaRkikOaGIqcRjdT2pTm-T4Fwi27XjSs5WL2bQY-CoGixtp0MxJxQL5iIMklBEZlirdo5ZvXvKScy6K6KjnB1KJZtLFKtulMcaNpwOK0DQmaoILZ77rk1X5");
+  background-repeat: no-repeat;
+  background-position: 50px 150px; }
 
 .data-text {
   color: #FFF;
   font-weight: bold;
   line-height: 29.5px; }
+
+.span-text-skills {
+  display: inline-block;
+  width: 30%; }
+
+.span-images-skills {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.span-image-skills {
+  display: inline-block;
+  background-color: #0fb600;
+  width: 40%;
+  line-height: 12px;
+  background-image: url("https://lh3.googleusercontent.com/w5EMtVGaHYE4IoEKeAaRkikOaGIqcRjdT2pTm-T4Fwi27XjSs5WL2bQY-CoGixtp0MxJxQL5iIMklBEZlirdo5ZvXvKScy6K6KjnB1KJZtLFKtulMcaNpwOK0DQmaoILZ77rk1X5");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 0px; }
+
+.img-skills-test {
+  display: inline-block !important;
+  height: 20px !important;
+  margin-right: 2px;
+  background-color: #0fb600; }
+
+.bg-grey {
+  background-color: #ECECEC; }
+
+@media only screen and (max-width: 596px) {
+  .img-skills-test {
+    width: auto !important;
+    height: 10px !important; } }
+
+.text-p-education {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 17px; }
+
+.text-basic-knowleges {
+  line-height: 30px;
+  margin-top: 10px; }
+
+.hr {
+  margin: 12px auto; }
+
+.icon-education {
+  background-color: #0fb600;
+  margin-top: 20px; }

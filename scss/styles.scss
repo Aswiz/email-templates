@@ -1,5 +1,12 @@
 @import "foundation";
 
+td.columns,
+td.column,
+th.columns,
+th.column {
+  padding-bottom: 0px;
+}
+
 .no-bg {
   background: transparent !important;
 }
@@ -15,6 +22,13 @@
 
 .text-16px {
   font-size: 16px;
+}
+
+.text-h3 {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .text-uppercase {
@@ -51,7 +65,7 @@
 
 .main-body-p {
   color: $grey;
-  line-height: (22/14);
+  font-size: 15px;
 }
 
 .decorative-line {
@@ -94,6 +108,7 @@ table.button {
 
 .span-accent {
   color: $accent;
+  font-weight: bold;
 }
 
 
@@ -119,7 +134,7 @@ table.button {
   background-color: $accent;
 }
 
-.photo-languages, .photo-skills, .photo-hobbies, .icon-data {
+.photo-languages, .photo-skills, .photo-hobbies, .icon-data, .icon-os {
   background-color: $accent;
 }
 
@@ -127,8 +142,75 @@ table.button {
   height: 27px;
 }
 
+.icon-skills {
+  background-color: $accent;
+  background-image: url('https://lh3.googleusercontent.com/w5EMtVGaHYE4IoEKeAaRkikOaGIqcRjdT2pTm-T4Fwi27XjSs5WL2bQY-CoGixtp0MxJxQL5iIMklBEZlirdo5ZvXvKScy6K6KjnB1KJZtLFKtulMcaNpwOK0DQmaoILZ77rk1X5');
+  background-repeat: no-repeat;
+  background-position: 50px 150px; 
+
+}
+
 .data-text {
   color: #FFF;
   font-weight: bold;
   line-height: 29.5px;
+}
+
+.span-text-skills {
+  display: inline-block;
+  width: 30%;
+}
+
+.span-images-skills
+{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.span-image-skills {
+  display: inline-block;
+  background-color: $accent;
+  width: 40%;
+  line-height: 12px;
+  background-image: url('https://lh3.googleusercontent.com/w5EMtVGaHYE4IoEKeAaRkikOaGIqcRjdT2pTm-T4Fwi27XjSs5WL2bQY-CoGixtp0MxJxQL5iIMklBEZlirdo5ZvXvKScy6K6KjnB1KJZtLFKtulMcaNpwOK0DQmaoILZ77rk1X5');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+}
+
+.img-skills-test {
+  display: inline-block !important;
+  height: 20px !important;
+  margin-right: 2px;
+  background-color: $accent;
+}
+
+.bg-grey {
+  background-color: $grey;
+}
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+  .img-skills-test {
+    width: auto !important;
+    height: 10px !important;
+  }
+}
+
+.text-p-education {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.text-basic-knowleges {
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.hr {
+  margin: 12px auto;
+}
+
+.icon-education {
+  background-color: $accent;
+  margin-top: 20px;
 }
