@@ -1391,6 +1391,9 @@ th.column {
 .no-bg {
   background: transparent !important; }
 
+.bg-grey {
+  background-color: #ECECEC; }
+
 .custom-pb {
   padding-bottom: 10px !important; }
 
@@ -1470,20 +1473,6 @@ table.button {
   color: #0fb600;
   font-weight: bold; }
 
-.layer1 {
-  height: 100px !important;
-  width: 100%;
-  position: relative;
-  background: transparent center center no-repeat;
-  background-color: aqua;
-  background-image: url("https://lh6.googleusercontent.com/qkJwA4RjZYV4iG-9cNdlt-6TmnpimxG0_p3IF3ZvDA8WjyQ2O7aRh8s151v0sTMWWpWkw1H-8HPRJ9xm85xW1SjDbZeg5z0ieUTTMzsiZsrwtkowsUN8R0okNpwt3KW2tC0rq3CY"); }
-
-.layer2 {
-  position: absolute;
-  background: transparent url("https://lh6.googleusercontent.com/qkJwA4RjZYV4iG-9cNdlt-6TmnpimxG0_p3IF3ZvDA8WjyQ2O7aRh8s151v0sTMWWpWkw1H-8HPRJ9xm85xW1SjDbZeg5z0ieUTTMzsiZsrwtkowsUN8R0okNpwt3KW2tC0rq3CY") center center no-repeat;
-  top: 50px;
-  left: 40%; }
-
 .myPhoto {
   background-color: #0fb600; }
 
@@ -1522,19 +1511,38 @@ table.button {
   background-repeat: no-repeat;
   background-position-x: 0px; }
 
-.img-skills-test {
+.img-skills {
   display: inline-block !important;
   height: 20px !important;
   margin-right: 2px;
   background-color: #0fb600; }
 
-.bg-grey {
-  background-color: #ECECEC; }
+.img-data {
+  margin-right: 10px; }
+
+.icon-education {
+  background-color: #0fb600;
+  margin-top: 20px; }
+
+.img-love {
+  display: inline-block !important;
+  height: 10px !important;
+  background-color: none; }
 
 @media only screen and (max-width: 596px) {
-  .img-skills-test {
+  .img-skills {
     width: auto !important;
-    height: 10px !important; } }
+    height: 10px !important; }
+  .img-love {
+    height: 5px !important;
+    width: auto !important; }
+  .icon-education {
+    max-width: 14px !important; }
+  .br-skills {
+    display: none; }
+  .text-p-education {
+    margin-bottom: 20px !important;
+    font-size: 14px !important; } }
 
 .text-p-education {
   margin-top: 20px;
@@ -1547,7 +1555,3 @@ table.button {
 
 .hr {
   margin: 12px auto; }
-
-.icon-education {
-  background-color: #0fb600;
-  margin-top: 20px; }
